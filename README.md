@@ -22,6 +22,6 @@ $ yarn start ou npm start
 
 # Gabarito oficial
 
-![](./01_Buscador.png)
-![](./02_Resultados.png)
-![](./02_Detalle.png)
+![](./gabarito/01_Buscador.png)
+![](./gabarito/02_Resultados.png)
+![](./gabarito/02_Detalle.png)
