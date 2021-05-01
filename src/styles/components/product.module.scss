@@ -1,0 +1,114 @@
+.product {
+    display: flex;
+    flex-direction: row;
+    padding: 3.2rem;
+
+    background-color: #fff;
+    border-radius: 0.4rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+
+    .infoProductLeft {
+        flex: 1;
+        max-width: 68rem;
+
+        img {
+            width: 68rem;
+            height: 68rem;
+            object-fit: contain;
+        }
+
+        div {
+            margin-top: 3.2rem;
+            p:first-child {
+                font-size: 2.8rem;
+                color: var(--gray-black);
+                margin-bottom: 3.2rem;
+            }
+    
+            p {
+                font-size: 1.6rem;
+                color: var(--gray-medium-light);
+            }
+        }
+
+    }
+
+    .infoProductRight {
+        width: 100%;
+        padding-left: 10.2rem;
+
+        p:first-child {
+            font-size: 1.4rem;
+            margin-bottom: 1.6rem;
+        }
+
+        p:nth-child(3) {
+            font-size: 4.6rem;
+            margin: 3.2rem 0;
+        }
+
+        p:nth-child(2) {
+            font-weight: bold;
+        }
+
+        p {
+            color: var(--gray-black);
+            font-size: 2.4rem;
+        }
+
+        button {
+            padding: 2rem;
+            width: 100%;
+            color: #fff;
+            background-color: var(--blue);
+
+            font-size: 1.8rem;
+            border: none;
+            border-radius: 0.5rem;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #2b6fd4;
+        }
+        
+    }
+}
+
+@media (max-width: 1080px) {
+    .product {
+        .infoProductLeft {
+
+            img {
+                width: 48rem;
+                height: 48rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .product {
+        flex-wrap: wrap;
+
+        .infoProductLeft {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 3.2rem;
+
+            div {        
+                p {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+
+        .infoProductRight { 
+            padding: 0;
+        }
+    }
+}

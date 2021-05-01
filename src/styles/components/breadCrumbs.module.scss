@@ -1,0 +1,19 @@
+.breadCrumbs {
+    display: flex;
+    width: auto;
+    padding: 1.6rem 0;
+
+    p {
+        font-size: 1.4rem;
+        color: var(--gray-medium-light);
+        margin: 0 0.4rem;
+    }
+
+    span {
+        display: flex;
+    }
+
+    span:last-child p:last-child {
+        display: none;
+    }
+}

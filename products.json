@@ -1,0 +1,46 @@
+[
+    {
+        "author": {
+            "name": "Luiz",
+            "lastname": "Vasconcelos"
+        },
+        "item": {
+            "id": "01",
+            "title": "iPhone XS Max 256GB ouro",
+            "price": {
+                "currency": "6.299",
+                "amount": 26,
+                "decimals": 0
+            },
+            "thumb": "../images/iphonexsmax256gbgold.webp",
+            "picture": "../images/iphonexsmax256gbgoldBig.webp",
+            "condition": "Novo",
+            "free_shipping": true,
+            "sold_quantity": 856,
+            "state": "Rio de Janeiro",
+            "description": "O sistema operacional iOS 12 oferece o dobro da velocidade de abertura de aplicativos do que a versão anterior. Além disso, o Siri Assistant se integra a aplicativos de terceiros para seu benefício. Tudo o que você precisa fazer é dizer “Siri, eu preciso relaxar” para iniciar seu aplicativo de meditação."
+        }
+    },
+    {
+        "author": {
+            "name": "Luiz",
+            "lastname": "Vasconcelos"
+        },
+        "item": {
+            "id": "02",
+            "title": "iPhone XS",
+            "price": {
+                "currency": "5.299",
+                "amount": 20,
+                "decimals": 0
+            },
+            "thumb": "../images/iphonexsmax256gbgold.webp",
+            "picture": "../images/iphonexsmax256gbgoldBig.webp",
+            "condition": "Novo",
+            "free_shipping": false,
+            "sold_quantity": 1056,
+            "state": "Rio de Janeiro",
+            "description": "O sistema operacional iOS 12 oferece o dobro da velocidade de abertura de aplicativos do que a versão anterior. Além disso, o Siri Assistant se integra a aplicativos de terceiros para seu benefício. Tudo o que você precisa fazer é dizer “Siri, eu preciso relaxar” para iniciar seu aplicativo de meditação."
+        }
+    }
+]
