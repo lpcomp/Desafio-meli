@@ -20,6 +20,11 @@ $ yarn build ou npm build
 $ yarn start ou npm start
 ```
 
+# Observações
+Neste exemplo só temos dois items para pesquisa e a pesquisa está só sendo feita pelo título do item.
+
+Tente pesquisar por iphone por exemplo.
+
 # Gabarito oficial
 
 ![](./gabarito/01_Buscador.png)
